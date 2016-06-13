@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Motorcycle Shop</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/reset.css">
+</head>
+<body>
+   <div class="b-wrapper">
+       
+        <header class="b-header">
+            <img class="b-header__logo" src="img/logo.png" width="164" height="100" alt="Motorcycle Custom Shop">
+            <nav class="b-hednav">
+                <span class="b-hednav__name">Menu</span>
+                <ul class="b-hednav__main-menu">
+                    <li class="b-hednav__main-item">Motorcycles
+                        <ul class="b-hednav__sub-menu">
+                            <li class="b-hednav__sub-item">Midsize</li>
+                            <li class="b-hednav__sub-item">Cruiser</li>
+                            <li class="b-hednav__sub-item">Bagger</li>
+                            <li class="b-hednav__sub-item">Touring</li>
+                        </ul>
+                    </li>
+                    <li class="b-hednav__main-item">Parts
+                        <ul class="b-hednav__sub-menu">
+                            <li class="b-hednav__sub-item">Body</li>
+                            <li class="b-hednav__sub-item">Brakes</li>
+                            <li class="b-hednav__sub-item">Controls</li>
+                            <li class="b-hednav__sub-item">Covers</li>
+                            <li class="b-hednav__sub-item">Drive</li>
+                            <li class="b-hednav__sub-item">Electrical</li>
+                            <li class="b-hednav__sub-item">Engine</li>
+                            <li class="b-hednav__sub-item">Exhaust</li>
+                            <li class="b-hednav__sub-item">Security</li>
+                            <li class="b-hednav__sub-item">Suspension</li>
+                            <li class="b-hednav__sub-item">Tire &amp; Wheels</li>
+                            <li class="b-hednav__sub-item">Windscreens</li>
+                        </ul>
+                    </li>
+                    <li class="b-hednav__main-item">Gear
+                        <ul class="b-hednav__sub-menu">
+                            <li class="b-hednav__sub-item">Armor</li>
+                            <li class="b-hednav__sub-item">Eyewear</li>
+                            <li class="b-hednav__sub-item">Gloves</li>
+                            <li class="b-hednav__sub-item">Headwear</li>
+                            <li class="b-hednav__sub-item">Underwear</li>
+                            <li class="b-hednav__sub-item">Helmets</li>
+                            <li class="b-hednav__sub-item">Jackets</li>
+                            <li class="b-hednav__sub-item">Pants</li>
+                            <li class="b-hednav__sub-item">Patches</li>
+                            <li class="b-hednav__sub-item">Rain Gear</li>
+                            <li class="b-hednav__sub-item">Shoes</li>
+                            <li class="b-hednav__sub-item">Socks</li>
+                            <li class="b-hednav__sub-item">Vests</li>
+                        </ul>
+                    </li>
+                    <li class="b-hednav__main-item">Who we are</li>
+                    <li class="b-hednav__main-item">Cart</li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="b-slider">
+            <!-- Список радиокнопок - они скрыты -->
+            <input class="b-slider__radio" name="imgtape" id="imgtape1" type="radio" checked>
+            <input class="b-slider__radio" name="imgtape" id="imgtape2" type="radio">
+            <input class="b-slider__radio" name="imgtape" id="imgtape3" type="radio">
+            <input class="b-slider__radio" name="imgtape" id="imgtape4" type="radio">
+            <input class="b-slider__radio" name="imgtape" id="imgtape5" type="radio">
+
+            <!-- Список слайдов - в них можно помещать картинки и что угодно ещё -->
+            <img class="b-slider__img" src="http://res.cloudinary.com/exandar/image/upload/v1463120674/For Web Projects/Motorcycle Store/slide-01.jpg" width="1920" height="1080" alt="Motorcycle 1 Photo">
+            <img class="b-slider__img" src="http://res.cloudinary.com/exandar/image/upload/v1463120674/For Web Projects/Motorcycle Store/slide-02.jpg" width="1920" height="1080" alt="Motorcycle 2 Photo">
+            <img class="b-slider__img" src="http://res.cloudinary.com/exandar/image/upload/v1463120674/For Web Projects/Motorcycle Store/slide-03.jpg" width="1920" height="1080" alt="Motorcycle 3 Photo">
+            <img class="b-slider__img" src="http://res.cloudinary.com/exandar/image/upload/v1463120674/For Web Projects/Motorcycle Store/slide-04.jpg" width="1920" height="1080" alt="Motorcycle 4 Photo">
+            <img class="b-slider__img" src="http://res.cloudinary.com/exandar/image/upload/v1463120674/For Web Projects/Motorcycle Store/slide-05.jpg" width="1920" height="1080" alt="Motorcycle 5 Photo">
+
+            <!-- Контейнер лейблов с цифрами - по клику на них выбирается слайд и отменяется вся анимация -->
+            <div class="b-slider__number-list">
+                <label class="b-slider__number" for="imgtape1"></label>
+                <label class="b-slider__number" for="imgtape2"></label>
+                <label class="b-slider__number" for="imgtape3"></label>
+                <label class="b-slider__number" for="imgtape4"></label>
+                <label class="b-slider__number" for="imgtape5"></label>
+            </div>
+        </div>
+        
+        <div class="b-categories">
+            <h2 class="b-category__header">Categories</h2>
+            <div class="b-category__wrapper">
+                <div class="b-category__item">
+                    <h3 class="b-category__name">Midsize</h3>
+                </div>
+                <div class="b-category__item">
+                    <h3 class="b-category__name">Cruiser</h3>
+                </div>
+                <div class="b-category__item">
+                    <h3 class="b-category__name">Bagger</h3>
+                </div>
+                <div class="b-category__item">
+                    <h3 class="b-category__name">Touring</h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="b-popular">
+            <h2 class="b-popular__header">Popular Items</h2>
+            <div class="b-popular__wrapper">
+                <div class="b-popular__item">
+                    <div class="b-popular__img"></div>
+                    <p class="b-popular__make">Indian</p>
+                    <p class="b-popular__model">Chief Classic</p>
+                    <p class="b-popular__price">$18 499.00</p>
+                    <button class="b-popular__buy">Buy</button>
+                </div>
+                <div class="b-popular__item">
+                    <div class="b-popular__img"></div>
+                    <p class="b-popular__make">Saddlemen</p>
+                    <p class="b-popular__model">Highwayman Slant Saddlebags</p>
+                    <p class="b-popular__price">$121.00</p>
+                    <button class="b-popular__buy">Buy</button>
+                </div>
+                <div class="b-popular__item">
+                    <div class="b-popular__img"></div>
+                    <p class="b-popular__make">Burly</p>
+                    <p class="b-popular__model">Slammer Kit</p>
+                    <p class="b-popular__price">$305.99</p>
+                    <button class="b-popular__buy">Buy</button>
+                </div>
+                <div class="b-popular__item">
+                    <div class="b-popular__img"></div>
+                    <p class="b-popular__make">Mechanix Wear</p>
+                    <p class="b-popular__model">Mechanix Original Gloves</p>
+                    <p class="b-popular__price">$19.99</p>
+                    <button class="b-popular__buy">Buy</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="b-contacts">
+            <h2 class="b-contacts__header">Contact us</h2>
+            <p class="b-contacts__notify">Please contact us for all inquiries and purchase options.</p>
+            <form class="b-contacts__form" action="#handler.php" name="contacts" method="post">
+                <input class="b-contacts__name" type="text" name placeholder="Name">
+                <input class="b-contacts__surname" type="text" name="surname" placeholder="Surname">
+                <input class="b-contacts__email" type="email" name="email" placeholder="user@domain.com">
+                <textarea class="b-contacts__message" name="message" id="" cols="45" rows="10" placeholder="Message"></textarea>
+                <button class="b-contacts__send" type="submit">Send</button>
+            </form>
+        </div>
+        
+        <footer class="b-footer">
+            <img class="b-footer__logo" src="img/logo.png" width="125" height="76" alt="Motorcycle Custom Shop">
+            <nav class="b-footnav">
+                <ul class="b-footnav__main-menu">
+                    <li class="b-footnav__main-item">Motorcycles</li>
+                    <li class="b-footnav__main-item">Parts</li>
+                    <li class="b-footnav__main-item">Gear</li>
+                    <li class="b-footnav__main-item">Who we are</li>
+                    <li class="b-footnav__main-item">Cart</li>
+                </ul>
+            </nav>
+        </footer>
+        
+    </div>
+</body>
+</html>
